@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es-ar">
+
+<head>
+    <title>Portada</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .imagen {
+        max-width: 50%;
+        max-height: auto;
+        border-radius: 50%;
+        transition: 1s;
+    }
+
+    .imagen:hover {
+        border-radius: 0%;
+        max-width: 100%;
+        transform: scale(100%);
+        transition: 1s;
+    }
+    .fondo{
+        background-image: url('efpn°7 c.png');
+        background-size: cover;
+        background-attachment: fixed;
+        filter: contrast(120%);
+    }
+    header{
+     display: flex;
+     justify-content:space-around;
+    }
+    .iconos{
+        width: 30px;
+    }
+</style>
+
+<body>
+    <header class="bg-light">
+        <!-- place navbar here -->
+        <a class="navbar-brand logo" href="#"><img src="logo.png" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="fuentes.html" aria-current="page">Fuentes
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Temas</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="saludMental.html"><img class="iconos" src="https://cdn-icons-png.freepik.com/256/10485/10485038.png?semt=ais_hybrid" alt="mente">Salud Mental</a>
+                                <a class="dropdown-item" href="imagenPersonal.html"><img class="iconos" src="https://cdn-icons-png.freepik.com/256/419/419281.png?semt=ais_hybrid" alt="persona"> La imagen personal</a>
+                                <a class="dropdown-item" href="mediosComunicacion.html"><img class="iconos" src="https://cdn-icons-png.freepik.com/256/2206/2206400.png?semt=ais_hybrid" alt="comunicacion"> Medios de Comunicación</a>
+                                <a class="dropdown-item" href="redes.html"><img class="iconos" src="https://cdn-icons-png.freepik.com/256/902/902691.png?semt=ais_hybrid" alt="redes"> Redes sociales</a>
+                                <a class="dropdown-item" href="cont-medioAmbiente.html"><img class="iconos" src="https://cdn-icons-png.freepik.com/256/12770/12770333.png?semt=ais_hybrid" alt="contaminacion"> Contaminación ambiental</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form> -->
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="row fondo">
+                <div class="col">
+                    <p class="display-1 mitad text-center poppins-thin text-light">Escuela de Formación Profesional N°7</p>
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="text-center">Datos del alumno Y el Profesor</h1>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h1 class="text-center ">Alumno:</h1>
+                    <div class="card ">
+                        <div class="card-header">
+                            <h4 class="text-center">Avila Marcos</h4>
+                        </div>
+                        <div class="bg-dark">
+                            <img class="card-img-top imagen d-flex mx-auto" src="MARCOS.jpeg" alt="Title" />
+                        </div>
+                        <div class="card-body text-center ">
+                            <p>Estudio en la escuela secundaria <a href="https://www.facebook.com/groups/431775474310603/">Pablo Ricchieri N° 54</a> </p>
+                            <p>Es alumno del profesor Mario Fernandez</p>
+                            <p>Tiene 24 Años de edad</p>
+                        </div>
+                        <div class="card-footer text-center text-success">Vive en Resistencia,Chaco</div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h1 class="text-center">Profesor:</h1>
+                    <div class="card ">
+                        <div class="card-header">
+                            <h4 class="text-center">Fernandez Mario</h4>
+                        </div>
+                        <div class="bg-dark">
+                            <img class="card-img-top imagen d-flex mx-auto" src="Mario Fernandez.jpg" alt="Title" />
+                        </div>
+                        <div class="card-body text-center ">
+                            <p>Estudió Maestro de Formación Profesional en <a href="https://ispetyp-cha.infd.edu.ar/sitio/" target="_blank">Instituto de Nivel Terciario de Educación Técnica y Formación Profesional</a> </p>
+                            <p>Actualmente es maestro en el area de desarrollo web Frontend en la <a href="https://www.facebook.com/escfp7/?locale=es_LA"> E.F.P N°7</a></p>
+                            <p>Tiene 54 años de edad</p>
+                        </div>
+                        <div class="card-footer text-center text-success">Vive en Resistencia,Chaco</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p class="">@Marcos Avila</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                desarrollo Web
+                <cite title="Source Title">Frontend</cite>
+            </figcaption>
+         </figure>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

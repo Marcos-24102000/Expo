@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es-ar">
+
+<head>
+    <title>Salund Mental</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+    .logo {
+        width: 100px;
+    }
+    .iconos{
+        width: 50px;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+   img{
+    width: 100%;
+   }
+   
+   @media(max-width:500px){
+
+    @keyframes show{
+     from{
+        opacity: 0;
+        scale: 25%;
+     }
+     to{
+        opacity: 1;
+        scale: 100%;
+     }
+     
+    }
+    .whow{
+        view-timeline-name: --image;
+        view-timeline-axis: block;
+        animation-timeline: --image;
+        animation-name: show;
+     }
+   }
+   @media(min-width:501px){
+
+@keyframes show{
+ from{
+    opacity: 0;
+    scale: 25%;
+ }
+ to{
+    opacity: 1;
+    scale: 100%;
+ }
+ 
+}
+.imagen{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+ }
+}
+   @media(min-width:900px){
+    @keyframes izquierda{
+     from{
+        transform: translateX(-100%);
+     }
+     to{
+        transform: translateX(0);
+     }
+    }
+    .imagen2{
+     animation: izquierda 2s;
+    }
+   }
+   .bordes{
+    background-color: rgba(238, 238, 238, 0.836);
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+   }
+
+   @media(min-width:900px){
+    @keyframes derecha{
+     from{
+        transform: translateX(100%);
+        filter: opacity(0);
+     }
+     to{
+        transform: translateX(0);
+        filter: opacity(1);
+     }
+    }
+    .imagen3{
+     animation: derecha 2s;
+    }
+   }
+   .bordes{
+    background-color: rgba(238, 238, 238, 0.836);
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+   }
+   .prompt-thin {
+  font-family: "Prompt", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+</style>
+
+<body class="bg-dark prompt-thin">
+    <header class="bg-light">
+        <!-- place navbar here -->
+        <a class="navbar-brand" href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="fuentes.html" aria-current="page">Fuentes
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Temas</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#"><img class="iconos"
+                                        src="https://cdn-icons-png.freepik.com/256/10485/10485038.png?semt=ais_hybrid"
+                                        alt="mente">Salud Mental</a>
+                                <a class="dropdown-item" href="imagenPersonal.html"><img class="iconos"
+                                        src="https://cdn-icons-png.freepik.com/256/419/419281.png?semt=ais_hybrid"
+                                        alt="persona"> La imagen personal</a>
+                                <a class="dropdown-item" href="imagenPersonal.html"><img class="iconos"
+                                        src="https://cdn-icons-png.freepik.com/256/2206/2206400.png?semt=ais_hybrid"
+                                        alt="comunicacion"> Medios de Comunicación</a>
+                                <a class="dropdown-item" href="redes.html"><img class="iconos"
+                                        src="https://cdn-icons-png.freepik.com/256/902/902691.png?semt=ais_hybrid"
+                                        alt="redes"> Redes sociales</a>
+                                <a class="dropdown-item" href="cont-medioAmbiente.html"><img class="iconos"
+                                        src="https://cdn-icons-png.freepik.com/256/12770/12770333.png?semt=ais_hybrid"
+                                        alt="contaminacion"> Contaminación ambiental</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex my-2 my-lg-0">
+                            <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                Search
+                            </button>
+                        </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- <section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,32L48,69.3C96,107,192,181,288,229.3C384,277,480,299,576,293.3C672,288,768,256,864,229.3C960,203,1056,181,1152,186.7C1248,192,1344,224,1392,240L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section> -->
+    <main class="celeste">
+        <div class="container-fluid">
+            <div class="row bordes">
+                <div class="col-xs-12 col-ms-12 col-md-6">
+                    <h1>Salud Mental</h1>
+                    <p>La salud mental es un aspecto fundamental del bienestar general de las personas. Se refiere a
+                        cómo pensamos, sentimos y nos comportamos en nuestra vida diaria. También influye en cómo
+                        manejamos el estrés, nos relacionamos con los demás y tomamos decisiones.</p>
+                </div>
+                <div class="col-xs-12 col-ms-12 col-md-6"><img class=" imagen3 whow imagen" src="salud-mental.png" alt="salud mental"></div>
+            </div>
+            <section>
+            <div class="row bordes">
+                <div class="col">
+                    <h2>Componentes de la salud Mental</h2>
+                    <ol>
+                        <li>Emocional: Implica la capacidad de gestionar las emociones y enfrentar los desafíos de
+                            manera saludable.</li>
+                        <li>Psicológico: Se relaciona con cómo interpretamos el mundo y nuestras experiencias, así como
+                            nuestra autoimagen.</li>
+                        <li>Social: Se refiere a nuestras relaciones y conexiones con los demás, que son esenciales para
+                            nuestro bienestar.</li>
+                    </ol>
+                </div>
+                <!-- <div class="col"><img src="" alt="imagen"></div> -->
+            </div>
+            <div class="row ">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row bordes">
+                <div class="col-xs-12 col-ms-12 col-md-6"><img class="imagen2 whow imagen" src="afecta_a_la_salud-removebg-preview.png" alt="imagen"></div>
+                <div class="col-xs-12 col-ms-12 col-md-6"><h2>Factores que afectan la salud mental:</h2>
+                    <ul>
+                        <li>Genéticos: Algunas personas pueden estar predispuestas a ciertos trastornos mentales.
+                        </li>
+                        <li>Ambientales: El entorno familiar, social y laboral puede influir significativamente.</li>
+                        <li>Biológicos: Problemas de salud física o desequilibrios químicos en el cerebro pueden afectar
+                            la salud mental.</li>
+                        <li>Psicológicos: Experiencias traumáticas o estrés prolongado pueden tener un impacto negativo.
+                        </li>
+                    </ul></div>
+            </div>
+            <div class="row bordes">
+                <div class="col-xs-12 col-ms-12 col-md-6">
+                    <h2>Estrategias para cuidar la salud mental:</h2>
+                    <ol>
+                        <li>Relaciones sociales: Mantener conexiones positivas con amigos y familiares.</li>
+                        <li>Ejercicio: La actividad física regular puede mejorar el estado de ánimo.</li>
+                        <li>Alimentación: Una dieta equilibrada contribuye al bienestar mental.</li>
+                        <li>Profesionales de la salud: Buscar ayuda de psicólogos o psiquiatras cuando sea necesario.
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-xs-12 col-ms-12 col-md-6"><img class="imagen3 whow imagen" src="mente sana.png" alt="imagen"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Es importante destigmatizar los problemas de salud mental y reconocer que pedir ayuda es un signo
+                        de fortaleza. Si tienes más preguntas o necesitas información específica, ¡estaré encantado de
+                        ayudarte!</p>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+   
+    <footer>
+        <!-- place footer here -->
+         <figure class="text-center">
+            <blockquote class="blockquote">
+                <p class="text-light">@Marcos Avila</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                desarrollo Web
+                <cite title="Source Title">Frontend</cite>
+            </figcaption>
+         </figure>
+         
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
